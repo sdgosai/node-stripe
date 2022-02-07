@@ -40,4 +40,4 @@ app.post("/charge", (req, res) => {
   });
 
 const port = process.env.PORT || 3000;
-app.listen(port, () => console.log('Server is running...'));
+app.listen(port, () => { console.log(`node application live at ${port} ✅`) });
